@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #181f22;
+  color: #527397;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  text-align: center;
+}
+
+.triangles {
+  width: 250px;
+}
+
+.triangle {
+  fill: #1f4b7b;
+  opacity: 0.5;
+}
+
+header {
+  font-size: 36px;
+  margin: 24px 0 16px;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: 200;
+  margin: 0;
+  line-height: .9;
+}
+
+.role {
+  display: block;
+  font-size: .6em;
+  opacity: .8;
+}
+
+.contact {
+  font-size: 18px;
+}
+
+.contact a {
+  display: inline-block;
+  color: inherit;
+  opacity: .8;
+  padding: 4px;
+  transition: opacity .2s;
+}
+
+.contact a:hover {
+  opacity: 1;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+@media screen and (min-width: 450px) {
+  header {
+    font-size: 46px;
+  }
+
+  .contact {
+    font-size: 24px;
+  }
+
+  .contact a {
+    padding: 8px;
+  }
+}
